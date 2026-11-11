@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+body,
+html {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Outfit", sans-serif;
+    height: 100%;
+}
+.container {
+    background: linear-gradient(135deg, #8a2be2, #4169e1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.content {
+    text-align: center;
+    background-color: whitesmoke;
+    padding: 2rem;
+    border-radius: 15px;
+    max-width: 400px;
+    width: 90%;
+}
+.profile {
+    width: 250px;
+    object-fit: contain;
+    border-radius: 999px;
+}
+h1 {
+    margin-bottom: 20px;
+    color: #333;
+}
+p {
+    margin-bottom: 20px;
+    color: #666;
+}
+.stay-tuned {
+    font-style: italic;
+    color: #8a2be2;
+}
+#notify-form {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+input[type="email"] {
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-family: "Outfit", sans-serif;
+}
+button {
+    cursor: pointer;
+    padding: 10px;
+    background-color: #8a2be2;
+    border: none;
+    border-radius: 6px;
+    color: #fff;
+    font-family: "Outfit", sans-serif;
+    transition: background-color 0.3s ease-in-out;
+}
+button:hover {
+    background-color: #7a1dd1;
+}
+svg {
+    position: absolute;
+    pointer-events: none;
+    bottom: 0;
+}
